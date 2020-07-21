@@ -1,12 +1,12 @@
 package main.java.com.hw9.executor;
 
 import main.java.com.hw9.division.SafeDivision;
-import main.java.com.hw9.exceptions.CaptedExceptions;
+import main.java.com.hw9.exceptions.ExceptionsDemonstration;
 import main.java.com.hw9.rethrowing.RethrowingExceptions;
 
 public class Executor {
-    public static void exucute() {
-        CaptedExceptions captedExceptions = new CaptedExceptions();
+    public static void execute() {
+        ExceptionsDemonstration captedExceptions = new ExceptionsDemonstration();
         captedExceptions.catchExceptionA();
         captedExceptions.catchExceptionB();
         captedExceptions.catchNullPointerException();

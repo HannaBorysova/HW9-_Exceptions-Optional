@@ -3,8 +3,9 @@ package main.java.com.hw9.division;
 import java.util.Scanner;
 
 public class SafeDivision {
+    private final Scanner scanner = new Scanner(System.in);
+
     public void enterTwoNumbers() {
-        Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 

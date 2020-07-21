@@ -2,7 +2,7 @@ package main.java.com.hw9.exceptions;
 
 import java.io.IOException;
 
-public class CaptedExceptions {
+public class ExceptionsDemonstration {
     public void catchExceptionA() {
             try {
                 throw new ExceptionA("ExeptionA String constructor");
